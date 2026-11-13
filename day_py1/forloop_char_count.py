@@ -7,7 +7,7 @@ text_sort = "".join(sorted(text))
 
 print(text_sort)
 # for char,group in groupby(text_sort):
-#     print(char,list(group))
+#     print(char,list(group)) giri
 
 
 res = "$".join(f"{char}{len(list(group))}" for char,group in groupby(text_sort))
